@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* background-color: lightcoral; */
+}
+
+/* Top  */
+.top {
+    background-color: #ECEB98;
+    text-align: center;
+    padding: 10px;
+}
+
+.topl1 {
+    margin-top: 7px;
+}
+
+.topl1, .topl2 {
+    margin-bottom: 7px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* NAVBAR */
+/* main nav div */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D0C9C0;
+}
+
+/* logo */
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+/* unorder list -> doing horizontal to navtabs */
+.navbar > ul {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid darkgoldenrod; */
+}
+
+/* listItem and icons */
+.navbar > ul > li, .navbar > ul > i {
+    list-style: none;
+    /* border: 1px solid rebeccapurple; */
+    padding: 13px; 
+    margin: 25px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* anchor tag */
+.navbar > ul > li > a {
+    text-decoration: none;
+    color: #3A3845;
+    font-size: 95%;
+}
+
+/* hover the anchor tag */
+.navbar > ul > li > a:hover {
+    color: #5624D0;
+}
+
+/* search bar div */
+.navbar > ul > .searchBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 27px;
+    padding: 15px;
+    margin: 25px 5px;
+    background-color: #F7F9FA;
+    border: 1px solid #000000;
+    width: 470px;
+}
+
+/* input field in search bar */
+.navbar > ul > .searchBar > input {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+/* icon of search bar */
+.navbar > ul > .searchBar > i {
+    margin-top: 1px;
+}
+
+/* ***************************************************************************************************************************** */
+/* 03. Course Navbar */
+
+/* doing un order list of navbar to horizontal */
+.courseNavbar > ul {
+    display: flex;
+    /* border: 1px solid royalblue; */
+    justify-content: space-around;
+    font-size: 90%;
+    padding: 0px 40px;
+}
+
+/* list items */
+.courseNavbar > ul > li {
+    list-style: none;
+    color: #3A3845;
+    padding: 18px 5px;
+    cursor: pointer;
+}
+
+/* ***************************************************************************************************************************** */
+/* 04. Screen Image */
+
+/* screen image */
+.screenImage {
+    width: 100%;
+    /* width: 1340px; */
+    height: 400px;
+}
+
+/* ***************************************************************************************************************************** */
+/* 05. Personal */
+
+/* 1st row div */
+.personal > .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 25px;
+}
+
+/* anchor tag of 1st row div */
+.personal > .row1 > a {
+    color: #401B9C;
+    text-decoration: none;
+    border-bottom: 1px solid #401B9C;
+}
+
+/* row2 in x-axis */
+.personal > .row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+}
+
+/* boxes under row2 */
+.personal > .row2 > .box {
+    border: 1px solid #D0C9C0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 31%;
+    padding: 18px 12px;
+}
+
+/* content of boxes under row2 */
+.personal > .row2 > .box .content {
+    margin-left: 25px;
+}
+
+/* p tag under content box */
+.personal > .row2 > .box .content h4, .personal > .row2 > .box .content p {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+/* doing purple color in h4 tag  */
+.personal > .row2 > .box .content > .purple {
+    color: #401B9C;
+    font-size: 85%;
+}
+
+/* Black strip div */
+.personal > .black {
+    background-color: #1C1D1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 28px;
+    padding: 16px 12px; 
+}
+
+/* text of black strip div */
+.personal > .black > .text {
+    color: #ffffff;
+    word-spacing: 1px;
+}
+
+/* bold the text of black strip div */
+.personal > .black > .text > span {
+    font-weight: bold;
+}
+
+/* fist button */
+.personal > .black > .buttons > .first {
+    background-color: #ffffff;
+    color: #1C1D1F;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* second button */
+.personal > .black > .buttons > .second {
+    background-color: #1C1D1F;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* ***************************************************************************************************************************** */
+/* 06.  */
