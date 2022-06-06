@@ -221,4 +221,66 @@
 }
 
 /* ***************************************************************************************************************************** */
-/* 06.  */
+/* 06. Courses Section */
+
+/* Course Section Div */
+.courseSection {
+    margin: 38px 28px;
+}
+
+/* heading of course section */
+.courseSection > .heading {
+    font-size: 38px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+/* text of course section */
+.courseSection > .text {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* vs code pic Div */
+.courseSection > .course {
+    margin-top: 15px;
+    border: 1px solid #D1D7DC;
+    display: flex;
+    padding: 24px 26px;
+}
+
+/* right box of vs code div */
+.courseSection > .course > .rightBox {
+    margin-left: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.courseSection > .course > .rightBox > .oper > .f1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.courseSection > .course > .rightBox > .oper > .f2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.courseSection > .course > .rightBox > .oper >  .t1, .courseSection > .course > .rightBox > .oper >  .t2 {
+    margin-bottom: 6px;
+}
+
+.courseSection > .course > .rightBox > .oper > .t3, .courseSection > .course > .rightBox > .oper > .t4 {
+    color: #5D6055;
+    font-size: 80%;
+    margin-bottom: 6px;
+}
+
+.courseSection > .course > .rightBox > .oper > .t4 > span {
+    font-weight: bold;
+}
+
