@@ -133,7 +133,7 @@
 /* 05. Personal */
 
 /* 1st row div */
-.personal > .row {
+.personal > .row1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,7 +141,7 @@
 }
 
 /* anchor tag of 1st row div */
-.personal > .row > a {
+.personal > .row1 > a {
     color: #401B9C;
     text-decoration: none;
     border-bottom: 1px solid #401B9C;
