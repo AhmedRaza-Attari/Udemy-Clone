@@ -133,7 +133,7 @@
 /* 05. Personal */
 
 /* 1st row div */
-.personal > .row1 {
+.personal > .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,7 +141,7 @@
 }
 
 /* anchor tag of 1st row div */
-.personal > .row1 > a {
+.personal > .row > a {
     color: #401B9C;
     text-decoration: none;
     border-bottom: 1px solid #401B9C;
@@ -221,7 +221,7 @@
 }
 
 /* ***************************************************************************************************************************** */
-/* 06. Courses Section */
+/* 06. Course Section */
 
 /* Course Section Div */
 .courseSection {
@@ -258,6 +258,8 @@
     justify-content: space-between;
 }
 
+/* text */
+
 .courseSection > .course > .rightBox > .oper > .f1 {
     font-size: 22px;
     font-weight: bold;
@@ -284,3 +286,66 @@
     font-weight: bold;
 }
 
+.courseSection > .course > .rightBox > .neche > .t5 {
+    font-weight: bold;
+    font-size: large;
+}
+
+/* ********************************************************************************************************************************** */
+/* 07. More Courses Section */
+
+/* More courses main Div */
+.moreCourses {
+    margin: 0px 28px;
+}
+
+/* Row of more courses */
+.moreCourses > .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* Course Content */
+
+/* course name */
+.moreCourses > .row > .boxes > .coursesContent > .courseName {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+} 
+
+/* course instructor name */
+.moreCourses > .row > .boxes > .coursesContent > p {
+    color: #5D6055;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+/* stars */
+.moreCourses > .row > .boxes > .coursesContent > .stars {
+    color: #E59819;
+    font-size: small;
+    margin-bottom: 8px;
+}
+
+/*  rating in stars */
+.moreCourses > .row > .boxes > .coursesContent > .stars > .rating {
+    color: #5D6055;
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+/* price of course div */
+.moreCourses > .row > .boxes > .coursesContent > .price {
+    color: #5D6055;
+    font-size: smaller;
+}
+
+/* actual price of course */
+.moreCourses > .row > .boxes > .coursesContent > .price > span {
+    font-weight: bold;
+    color: #000000;
+    margin-right: 3px;
+    font-size: large;
+}
